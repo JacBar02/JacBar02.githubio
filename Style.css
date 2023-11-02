@@ -1,0 +1,173 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #f0e6d9; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+
+
+header {
+    background: url('images/new.jpg') no-repeat center center fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 50px 0;
+    border: 4px solid #00d0ff;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid black;
+    transition: border 0.3s, background-color 0.3s;
+}
+
+.header-image:hover {
+    border: 3px solid white;
+}
+
+header h1 {
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: font-size 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    color: #00d0ff;
+}
+
+/* Section styles */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid #00d0ff;
+}
+
+
+
+
+
+
+
+
+
+/* About section styles */
+.about-section {
+    background: url('images/new.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    padding: 20px;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-section {
+    background: url('images/new.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    padding: 20px;
+    border: none; /* Remove the border */
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* Contact section styles */
+.contact-section {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+}
+
+.contact-section h2 {
+    font-size: 20px;
+}
+
+contact-section p {
+    font-size: 14px;
+}
+
+
+
+
+/* Footer styles */
+footer {
+    background-color: grey;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-top: 4px solid #00d0ff;
+}
+
+
+
+
+
+
+
+
+/* Top right navigation styles */
+.top-right-nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+top-right-nav ul {
+    list-style: none;
+}
+
+top-right-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+top-right-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: font-size 0.3s, color 0.3s;
+}
